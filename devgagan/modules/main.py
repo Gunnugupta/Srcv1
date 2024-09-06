@@ -34,7 +34,7 @@ async def single_link(_, message):
             except:
                 return await msg.edit_text("Please login in bot...")
         else:
-            await msg.edit_text("Login in bot first ...")
+            await msg.edit_text("Login in bot first ...using /login")
             return
 
         try:
