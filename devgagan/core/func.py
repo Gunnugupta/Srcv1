@@ -20,7 +20,11 @@ async def chk_user(message, user_id):
     if user_id in user or user_id in OWNER_ID:
         return 0
     else:
-        await message.reply_text("Sir, you don't have premium access!!")
+        await message.reply_text("Hᴇʏ Bʀᴏ/Sɪs ,\n\n<blockquote>Yᴏᴜ Dᴏɴ'ᴛ ʜᴀᴠᴇ ᴀɴʏ Pʀᴇᴍɪᴜᴍ Pʟᴀɴs !!\n\nIғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ʀᴇsᴛʀɪᴄᴛᴇᴅ Cᴏɴᴛᴇɴᴛ ғᴏʀᴍ ᴀɴʏ Bᴏᴛ / Cʜᴀɴɴᴇʟ / Gʀᴏᴜᴘ !! In batch mode ᴛʜᴇɴ ᴘᴜʀᴄʜᴀsᴇ Oᴜʀ Pʀᴇᴍɪᴜᴍ Pʟᴀɴ ᴀᴛ ᴀғғᴏʀᴅᴀʙʟᴇ ᴘʀɪᴄᴇ ᴛᴏ ᴜsᴇ ᴛʜᴇ ʙᴏᴛ !!</blockquote>\nPᴏᴡᴇʀᴇᴅ ʙʏ @HGBOTZ", 
+                                 reply_markup=InlineKeyboardMarkup([[
+                                              InlineKeyboardButton('✇ Query ✇', url="https://t.me/HGBOTZ_support"),
+                                              InlineKeyboardButton('✨ PREMIUM ✨', url="http://t.me/premium_hgbot")]])
+                                )
         return 1
 
 
