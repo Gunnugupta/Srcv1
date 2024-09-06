@@ -88,14 +88,14 @@ async def get_seconds(time_string):
 
 
 
-PROGRESS_BAR = """\n
-**__Completed__** : {1}/{2}
-**__Bytes__** : {0}%
-**__Speed__** : {3}/s
-**__Time__** : {4}\n\n
-**__Powered by [Team SPY](https://t.me/devggn)__**
+PROGRESS_BAR = """\n<b>
+╭━━━━❰🅷︎🅶︎🅱︎🅾︎🆃︎🆉︎❱━━━>
+🗃️ sɪᴢᴇ: {1}/{2}
+⏳️ ᴅᴏɴᴇ : {0}%
+🚀 sᴘᴇᴇᴅ: {3}/s
+⏰️ ᴇᴛᴀ: {4}
+╰━━━━━━━━━━━━━━━ </b>
 """
-
 
 async def progress_bar(current, total, ud_type, message, start):
 
@@ -113,8 +113,8 @@ async def progress_bar(current, total, ud_type, message, start):
         estimated_total_time = TimeFormatter(milliseconds=estimated_total_time)
 
         progress = "{0}{1}".format(
-            ''.join(["🟢" for i in range(math.floor(percentage / 10))]),
-            ''.join(["🔴" for i in range(10 - math.floor(percentage / 10))]))
+            ''.join(["⚡" for i in range(math.floor(percentage / 10))]),
+            ''.join(["⚡" for i in range(10 - math.floor(percentage / 10))]))
             
         tmp = progress + PROGRESS_BAR.format( 
             round(percentage, 2),
