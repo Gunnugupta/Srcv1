@@ -20,4 +20,4 @@ async def start(_, message):
         return
     await message.reply_photo(photo="https://ibb.co/Wt1n80J",
                               caption=script.START_TXT.format(message.from_user.mention), 
-                              reply_markup=buttons)
+                              reply_markup=InlineKeyboardMarkup(buttons)) 
