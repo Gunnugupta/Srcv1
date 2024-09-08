@@ -23,7 +23,7 @@ async def chk_user(message, user_id):
         await message.reply_photo(photo="https://ibb.co/1JjQkmH", caption="Hᴇʏ Bʀᴏ/Sɪs ,\n\n<b><blockquote>Yᴏᴜ Dᴏɴ'ᴛ ʜᴀᴠᴇ ᴀɴʏ Pʀᴇᴍɪᴜᴍ Pʟᴀɴs !!\n\nIғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ʀᴇsᴛʀɪᴄᴛᴇᴅ Cᴏɴᴛᴇɴᴛ ғᴏʀᴍ ᴀɴʏ Bᴏᴛ / Cʜᴀɴɴᴇʟ / Gʀᴏᴜᴘ !! In batch mode ᴛʜᴇɴ ᴘᴜʀᴄʜᴀsᴇ Oᴜʀ Pʀᴇᴍɪᴜᴍ Pʟᴀɴ ᴀᴛ ᴀғғᴏʀᴅᴀʙʟᴇ ᴘʀɪᴄᴇ ᴛᴏ ᴜsᴇ ᴛʜᴇ ʙᴏᴛ click premium button and drop msg!!</blockquote></b>\nPᴏᴡᴇʀᴇᴅ ʙʏ @HGBOTZ", 
                                  reply_markup=InlineKeyboardMarkup([[
                                               InlineKeyboardButton('✇ Query ✇', url="https://t.me/HGBOTZ_support"),
-                                              InlineKeyboardButton('✨ PREMIUM ✨', url="http://t.me/premium_hgbot")]])
+                                              InlineKeyboardButton('✨BUY PREMIUM ✨', url="http://t.me/premium_hgbot")]])
                                 )
         return 1
 
