@@ -8,7 +8,7 @@ from pyrogram.types import *
 # ------------------- Start-Buttons --------------
 buttons = [[
         InlineKeyboardButton('✇ Uᴘᴅᴀᴛᴇs ✇', url="https://t.me/HGBOTZ"),
-        InlineKeyboardButton('✨ PRIMIUM ✨', url="https://t.me/premium_hgbot")
+        InlineKeyboardButton('✨BUY PRIMIUM ✨', url="https://t.me/premium_hgbot")
     ],[
         InlineKeyboardButton('〄 Hᴇʟᴘ', url="https://graph.org/vTelegraphBot-09-06-10")
     ]]
