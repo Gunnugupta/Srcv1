@@ -3,15 +3,15 @@
 # ------------------------------------------------------------ #
 
 START_TXT = """
-Hi, Welcome to Content Saver Bot,
+<b>Hi, Welcome to Content Saver Bot,
 
 Designed to save restricted messages from public/private channels and private groups. 
-First login in bot by /login then send post link."""
+First login in bot by /login then send post link.</b>"""
 
 FORCE_MSG = """
 Hey {},
 
-According to my database, you've not joined the updates channel yet. If you want to use me, then join the updates channel and start me again!
+According to my database, you've not joined the updates channel yet. If you want to use me, then join the updates channel and /start me again!
 """
 
 HELP_TXT = """
