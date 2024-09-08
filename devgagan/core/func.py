@@ -20,7 +20,7 @@ async def chk_user(message, user_id):
     if user_id in user or user_id in OWNER_ID:
         return 0
     else:
-        await message.reply_text("Hᴇʏ Bʀᴏ/Sɪs ,\n\n<blockquote>Yᴏᴜ Dᴏɴ'ᴛ ʜᴀᴠᴇ ᴀɴʏ Pʀᴇᴍɪᴜᴍ Pʟᴀɴs !!\n\nIғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ʀᴇsᴛʀɪᴄᴛᴇᴅ Cᴏɴᴛᴇɴᴛ ғᴏʀᴍ ᴀɴʏ Bᴏᴛ / Cʜᴀɴɴᴇʟ / Gʀᴏᴜᴘ !! In batch mode ᴛʜᴇɴ ᴘᴜʀᴄʜᴀsᴇ Oᴜʀ Pʀᴇᴍɪᴜᴍ Pʟᴀɴ ᴀᴛ ᴀғғᴏʀᴅᴀʙʟᴇ ᴘʀɪᴄᴇ ᴛᴏ ᴜsᴇ ᴛʜᴇ ʙᴏᴛ !!</blockquote>\nPᴏᴡᴇʀᴇᴅ ʙʏ @HGBOTZ", 
+        await message.reply_photo(photo="https://ibb.co/1JjQkmH", caption="Hᴇʏ Bʀᴏ/Sɪs ,\n\n<b><blockquote>Yᴏᴜ Dᴏɴ'ᴛ ʜᴀᴠᴇ ᴀɴʏ Pʀᴇᴍɪᴜᴍ Pʟᴀɴs !!\n\nIғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ʀᴇsᴛʀɪᴄᴛᴇᴅ Cᴏɴᴛᴇɴᴛ ғᴏʀᴍ ᴀɴʏ Bᴏᴛ / Cʜᴀɴɴᴇʟ / Gʀᴏᴜᴘ !! In batch mode ᴛʜᴇɴ ᴘᴜʀᴄʜᴀsᴇ Oᴜʀ Pʀᴇᴍɪᴜᴍ Pʟᴀɴ ᴀᴛ ᴀғғᴏʀᴅᴀʙʟᴇ ᴘʀɪᴄᴇ ᴛᴏ ᴜsᴇ ᴛʜᴇ ʙᴏᴛ click premium button and drop msg!!</blockquote></b>\nPᴏᴡᴇʀᴇᴅ ʙʏ @HGBOTZ", 
                                  reply_markup=InlineKeyboardMarkup([[
                                               InlineKeyboardButton('✇ Query ✇', url="https://t.me/HGBOTZ_support"),
                                               InlineKeyboardButton('✨ PREMIUM ✨', url="http://t.me/premium_hgbot")]])
@@ -43,7 +43,7 @@ async def subscribe(app, message):
             await message.reply_text("Sorry Sir, You are Banned. Contact -- @HGBOTZ_support")
             return 1
       except UserNotParticipant:
-         await message.reply_photo(photo="https://graph.org/file/d44f024a08ded19452152.jpg",caption=script.FORCE_MSG.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Join Now...", url=f"{url}")]]))
+         await message.reply_photo(photo="https://ibb.co/1JQN6JJ",caption=script.FORCE_MSG.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Join Now...", url=f"{url}")]]))
          return 1
       except Exception:
          await message.reply_text("Something Went Wrong. Contact us @hgbotz_support...")
