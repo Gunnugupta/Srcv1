@@ -1,4 +1,4 @@
-pyrofork==2.3.43
+pyrogram 
 tgcrypto
 pyromod
 opencv-python-headless
